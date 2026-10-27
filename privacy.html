@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Ayurix Live Banner</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; color: #1b1b2f; }
+  a { color: #5a4fcf; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p>Ayurix Live Banner ("the app") is a personal tool that updates the banner of the Ayurix YouTube channel with its current subscriber count. <a href="index.html">About the app</a>. Last updated: 27 October 2026.</p>
+
+<h2>Who uses the app</h2>
+<p>Only the owner of the Ayurix channel. The app does not have other users and does not collect data from visitors or viewers of the channel.</p>
+
+<h2>Google user data the app accesses</h2>
+<p>When the channel owner signs in with Google, the app requests the YouTube scope (<code>https://www.googleapis.com/auth/youtube</code>). With it, the app:</p>
+<ul>
+  <li>reads the channel's subscriber count;</li>
+  <li>reads the channel's existing branding settings, so they are preserved when the banner is changed;</li>
+  <li>uploads a banner image and sets it as the channel banner.</li>
+</ul>
+<p>The app does not access videos, comments, playlists, analytics, or any other Google account data.</p>
+
+<h2>How data is stored</h2>
+<ul>
+  <li>The Google OAuth credentials (client ID, client secret and refresh token) are stored as encrypted secrets in the owner's private GitHub Actions settings. They are not published.</li>
+  <li>The app stores one number, the most recent subscriber count, in a file in its public GitHub repository. This number is already public on the channel.</li>
+  <li>No other Google user data is stored.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>The app does not sell, share, transfer or disclose Google user data to anyone. It has no advertising, analytics or tracking.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Revoking access and deleting data</h2>
+<p>The channel owner can revoke the app's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the repository's secrets removes the stored credentials.</p>
+
+<h2>Contact</h2>
+<p>Open an issue at <a href="https://github.com/Ayurax/ayurix-live-banner/issues">github.com/Ayurax/ayurix-live-banner/issues</a>.</p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ayurix Live Banner</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; color: #1b1b2f; }
+  a { color: #5a4fcf; }
+</style>
+</head>
+<body>
+<h1>Ayurix Live Banner</h1>
+<p>Ayurix Live Banner is a small personal tool that keeps the banner of the Ayurix YouTube channel in sync with its subscriber count. The banner shows a progress bar such as "54 / 100" that updates when the channel gains or loses subscribers.</p>
+<h2>What it does</h2>
+<ol>
+  <li>On a schedule, a GitHub Actions workflow reads the channel's subscriber count through the YouTube Data API.</li>
+  <li>If the count changed, it renders a new banner image.</li>
+  <li>It uploads the image and sets it as the channel banner.</li>
+</ol>
+<p>The tool is used only by the owner of the Ayurix channel, on that channel only. It is not offered to other users.</p>
+<p><a href="privacy.html">Privacy Policy</a> &middot; <a href="https://github.com/Ayurax/ayurix-live-banner">Source code</a></p>
+</body>
+</html>
